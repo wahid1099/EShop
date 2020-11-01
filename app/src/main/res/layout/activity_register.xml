@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="3dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#114670"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Registrtion for shopping"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/singup_emailid"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:hint="Enter your E-mail id"
+        android:textColorHint="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/singup_name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter your Full Name"
+        android:textColorHint="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/singup_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter your password"
+        android:textColorHint="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/singup_confirm_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Confirm your password"
+        android:textColorHint="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sing Up"
+        android:id="@+id/singupbutton"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/singup_singin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Already Register ?Sing In"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

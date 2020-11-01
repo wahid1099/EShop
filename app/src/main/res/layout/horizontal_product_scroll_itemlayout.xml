@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="3dp"
+    android:gravity="center"
+    android:layout_margin="4dp">
+    <ImageView
+        android:id="@+id/h_s_product_image"
+        android:layout_width="140dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/poco"/>
+
+    <TextView
+        android:id="@+id/h_s_product_title"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:text="Poco f1"
+        android:textColor="#000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/h_s_product_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="SD 845 Processor"
+        android:textColor="#4CC60B"
+        android:textSize="8sp" />
+    <TextView
+        android:id="@+id/h_s_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs.19999/-"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="2dp"/>
+
+</LinearLayout>
